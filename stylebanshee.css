@@ -69,3 +69,87 @@ header{
     height: 30px;
     
 }
+
+
+
+.container-text{
+    display: flex;
+   
+    align-items: center;
+    background-color: #fcf8ed;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    height: 900px;
+}
+
+
+.container-text h1{
+    font-size: 45px;
+    color: #8b0000;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    
+}
+
+.container-text p{
+   
+    color: gray;
+    margin-left: 30px;
+    width: 500px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container-text a{
+    text-decoration: none;
+    color: #c2a36a;
+    font-size: 23px;
+    margin-left: 30px;
+    width: 500px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.p-corset{
+
+    font-size: 24px;
+    letter-spacing: 0.1em;
+
+}
+
+.p-corset2{
+    font-size: 21px;
+}
+
+
+.container-type-corset{
+    background-color: #d5be96;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+   align-items: center;
+    font-size: 18px;
+    
+   padding-left: 300px;
+    padding-right: 300px;
+    
+    
+}
+
+.container-type-corset a{
+    text-decoration: none;
+    color: #8b0000;
+    flex-grow: 1;
+  
+    font-weight: bold;
+    
+}
+
+.type-corset{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
